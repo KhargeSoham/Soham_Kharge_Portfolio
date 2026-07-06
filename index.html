@@ -3,100 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soham Kharge | Portfolio</title>
-    <link rel="stylesheet" href="style.css?v=3">
+    <title>Soham Kharge | Creative Technologist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<!-- Header -->
-<header>
-    <div class="container">
-        <h1>Soham Kharge</h1>
-        <p class="tagline">Creative coder building innovative tech solutions.</p>
-    </div>
-</header>
-
-<!-- About -->
-<section id="about" class="fade-in">
-    <div class="container about-container">
-        <img src="soka1.jpg" class="profile-img">
-        <div class="bio">
-            <h2>About Me</h2>
-            <p>
-                Passionate Computer Engineering student focused on Java development and modern web technologies.
-                I enjoy building clean, scalable, and user-focused applications.
-            </p>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container container">
+            <div class="logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">SK</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-    </div>
-</section>
+    </nav>
 
-<!-- Skills -->
-<section id="skills" class="fade-in">
-    <div class="container">
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-            <div class="skill">Java</div>
-            <div class="skill">Spring Boot</div>
-            <div class="skill">HTML / CSS / JS</div>
-            <div class="skill">React</div>
-            <div class="skill">MySQL</div>
-            <div class="skill">OOP</div>
-            <div class="skill">DSA</div>
-        </div>
-    </div>
-</section>
-
-<!-- Projects -->
-<section id="projects" class="fade-in">
-    <div class="container">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <img src="praj1.jpg.png">
-                <h3>Sports Team Member System</h3>
-                <p>Java Swing + SQL system to manage players and panels efficiently.</p>
+    <!-- HERO -->
+    <section id="hero">
+        <canvas id="particles" class="canvas-bg"></canvas>
+        <div class="hero-bg"></div>
+        
+        <div class="container hero-content-wrapper">
+            <div class="hero-content">
+                <h1>SOHAM KHARGE</h1>
+                <p class="tagline">Creative Full-Stack Engineer &amp; Problem Solver</p>
+                <p class="hero-desc">
+                    Turning complex problems into elegant digital experiences with Java, React, and modern cloud technologies.
+                </p>
+                
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Explore Work
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i> Let's Connect
+                    </a>
+                </div>
+                
+                <div class="stats">
+                    <div><strong>3+</strong> Years Exp</div>
+                    <div><strong>15+</strong> Projects</div>
+                    <div><strong>Java • React • Cloud</strong></div>
+                </div>
             </div>
-
-            <div class="project-card">
-                <img src="praj2.jpg.jpg">
-                <h3>Movie Ticket Booking System</h3>
-                <p>Full-stack app using React, Node.js, MongoDB for booking & scheduling.</p>
+            
+            <!-- 3D Profile -->
+            <div class="profile-wrapper">
+                <div class="profile-card">
+                    <img src="soka1.jpg" alt="Soham Kharge" class="profile-img" onerror="this.src='https://via.placeholder.com/400x400/111/00ffea?text=SOHAM'">
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-<!-- Resume -->
-<section id="resume" class="fade-in">
-    <div class="container">
-        <h2>Resume</h2>
-
-        <div class="resume-buttons">
-            <a href="Soham_Kharge_Resume-A+.pdf" class="btn view" target="_blank">
-                View Resume
-            </a>
-
-            <a href="https://raw.githubusercontent.com/KhargeSoham/SK-Portfolio/main/Soham_Kharge_Resume-A.pdf"
-               class="btn download" download>
-                Download Resume
-            </a>
+        
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down fa-2x"></i>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Contact -->
-<section id="contact" class="fade-in">
-    <div class="container">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:sohamkharge@gmail.com">sohamkharge@gmail.com</a></p>
-        <p>Phone: +91 8999427283</p>
-    </div>
-</section>
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="bio">
+                    <p>
+                        Passionate Computer Engineering student and full-stack developer with a strong foundation in Java ecosystem and modern web technologies. 
+                        I love building scalable systems that solve real-world problems while delivering exceptional user experiences.
+                    </p>
+                    <p>
+                        Currently exploring distributed systems, cloud-native architecture, and AI integration. When I'm not coding, you'll find me contributing to open source or experimenting with 3D graphics.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/KhargeSoham" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                    </div>
+                </div>
+                
+                <div class="currently-building">
+                    <h3>Currently Building</h3>
+                    <ul>
+                        <li>Distributed Task Orchestration Platform</li>
+                        <li>AI-Powered Code Review Assistant</li>
+                        <li>Real-time Collaborative Whiteboard</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Footer -->
-<footer>
-    <p>© 2026 Soham Kharge. Software Engineer</p>
-</footer>
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3><i class="fab fa-java"></i> Backend</h3>
+                    <div class="progress-bar"><div class="progress" data-width="95"></div></div>
+                    <p>Java • Spring Boot • Hibernate • Microservices</p>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fab fa-react"></i> Frontend</h3>
+                    <div class="progress-bar"><div class="progress" data-width="90"></div></div>
+                    <p>React • TypeScript • Tailwind • Three.js</p>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fas fa-database"></i> Database &amp; Cloud</h3>
+                    <div class="progress-bar"><div class="progress" data-width="85"></div></div>
+                    <p>MySQL • MongoDB • AWS • Docker • Kubernetes</p>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fas fa-cogs"></i> Core</h3>
+                    <div class="progress-bar"><div class="progress" data-width="92"></div></div>
+                    <p>OOP • DSA • System Design • Git</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="praj1.jpg.png" alt="Sports Management" onerror="this.src='https://via.placeholder.com/600x300/111/00ffea?text=Sports+System'">
+                    <div class="project-info">
+                        <h3>Sports Team Manager</h3>
+                        <p>Java Swing + MySQL desktop application for complete team and panel management with real-time statistics.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Swing</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="praj2.jpg.jpg" alt="Movie Booking" onerror="this.src='https://via.placeholder.com/600x300/111/ff00aa?text=Movie+Booking'">
+                    <div class="project-info">
+                        <h3>CineBook - Movie Ticket System</h3>
+                        <p>Full-stack MERN application with seat selection, payment gateway integration, and admin dashboard.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume">
+        <div class="container resume-section">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-buttons">
+                <a href="Soham_Kharge_Resume-A+.pdf" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-file-pdf"></i> View Resume
+                </a>
+                <a href="https://raw.githubusercontent.com/KhargeSoham/SK-Portfolio/main/Soham_Kharge_Resume-A.pdf" download class="btn btn-outline">
+                    <i class="fas fa-download"></i> Download PDF
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:sohamkharge@gmail.com">sohamkharge@gmail.com</a></p>
+                <p>Phone: +91 8999427283</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Soham Kharge. Crafted with <span style="color: #ff0066;">♥</span> and lots of coffee.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
