@@ -84,16 +84,16 @@ window.addEventListener('load', () => {
 
     progressBars.forEach(bar => observer.observe(bar));
 
-    // Contact Form
-    const contactForm = document.getElementById('contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert("Thank you! Your message has been received. I'll get back to you soon.");
-            this.reset();
-        });
-    }
-
+   // Contact Form with Formspree
+const contactForm = document.getElementById('contact-form');
+if (contactForm) {
+    contactForm.addEventListener('submit', function() {
+        // Optional: Show success message after submission
+        setTimeout(() => {
+            alert("✅ Thank you! Your message has been sent successfully.\n\nI'll reply to you as soon as possible.");
+        }, 800);
+    });
+}
     // Smooth scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
