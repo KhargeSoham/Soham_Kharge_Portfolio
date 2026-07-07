@@ -8,8 +8,11 @@ A modern and responsive **personal portfolio website** , designed to showcase my
 
 ## 🧑‍💻 About the Project
 
-This portfolio website serves as my digital identity — highlighting who I am, what I do, and the projects I’ve worked on.  
-It reflects my passion for **Java development**, **web development**, **design**, and creating meaningful digital experiences.
+Project Overview
+Project Name: Soham Kharge – Personal Portfolio Website
+ Type: Modern, Responsive, Interactive Single Page Portfolio 
+Tech Stack: HTML5, CSS3 (Advanced), Vanilla JavaScript 
+Theme: Cyber-Neon / Futuristic Tech Portfolio
 
 ---
 
