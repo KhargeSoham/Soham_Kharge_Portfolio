@@ -27,3 +27,9 @@ A modern and responsive **personal portfolio website** , designed to showcase my
 - ⚙️ **Fully Responsive Design** 
 
 ---
+## Connect
+
+LinkedIn: ([linkedin_profile](https://www.linkedin.com/in/soham0kharge05/))
+
+Portfolio: ([Soham_portfolio](https://khargesoham.github.io/Soham_Kharge_Portfolio/))
+
